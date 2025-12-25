@@ -3,7 +3,7 @@
     <div class="about-modal">
       <div class="about-modal-content">
         <div class="tech-stack">
-          <h3>使用的技术栈</h3>
+            <h3>ZXU.CC</h3>
           <ul class="tech-list">
             <li v-for="tech in techStack" :key="tech.name" :class="['tech-item', tech.name.toLowerCase()]">
               <i :class="tech.icon"></i>
@@ -12,9 +12,9 @@
           </ul>
         </div>
         <div class="github-info">
-          <h3>开源地址</h3>
-          <a href="https://github.com/JLinMr/Home-Vue" target="_blank" class="github-link">
-            <i class="fab fa-github"></i> Github
+          <h3>Memos笔记</h3>
+          <a href="https://memos.zxu.cc" target="_blank" class="github-link">
+            <i class="fa-regular fa-link"></i> Github
           </a>
         </div>
         <div class="update-info">
