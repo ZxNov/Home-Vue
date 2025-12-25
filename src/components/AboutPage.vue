@@ -18,7 +18,7 @@
           </a>
         </div>
         <div class="update-info">
-          <h3>最近更新</h3>
+          <h3>一些信息</h3>
           <ul class="update-list">
             <li v-if="loading" class="loading-item">
               <div class="loading-spinner"></div>
