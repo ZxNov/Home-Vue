@@ -42,11 +42,11 @@ import { ref } from 'vue';
 const emit = defineEmits(['close']);
 
 const techStack = [
-  { name: 'Vue3', icon: 'fab fa-vuejs' },
-  { name: 'Vite', icon: 'fas fa-bolt' },
-  { name: 'CSS3', icon: 'fab fa-css3-alt' },
-  { name: 'HTML5', icon: 'fab fa-html5' },
-  { name: 'JavaScript', icon: 'fab fa-js' }
+  { name: 'Panel', icon: 'fa fa-solar-panel' },
+  { name: 'Memos', icon: 'fa fa-book' },
+  { name: 'PassWD', icon: 'fa fa-key' },
+  { name: 'eMail', icon: 'fa fa-envelope' },
+  { name: 'Links', icon: 'fa fa-link' }
 ];
 const lastUpdates = ref([]);
 const loading = ref(true);
