@@ -42,10 +42,12 @@ import { ref } from 'vue';
 const emit = defineEmits(['close']);
 
 const techStack = [
-  { name: 'Panel<a href="https://m.zxer.cn" target="_blank" class="github-link">', icon: 'fa fa-solar-panel' },
-  { name: 'Memos<a href="https://m.zxer.cn" target="_blank" class="github-link">', icon: 'fa fa-book' },
-  { name: 'PassWD'<a href="https://m.zxer.cn" target="_blank" class="github-link">, icon: 'fa fa-key' },
-  { name: 'eMail'<a href="https://m.zxer.cn" target="_blank" class="github-link">, icon: 'fa fa-envelope' },
+  <a href="https://m.zxer.cn" target="_blank" class="github-link">
+            <i class="fa fa-link"></i> 实用资料
+  { name: 'Panel', icon: 'fa fa-solar-panel' },
+  { name: 'Memos', icon: 'fa fa-book' },
+  { name: 'PassWD', icon: 'fa fa-key' },
+  { name: 'eMail', icon: 'fa fa-envelope' },
   { name: 'Links', icon: 'fa fa-link' }
 ];
 const lastUpdates = ref([]);
