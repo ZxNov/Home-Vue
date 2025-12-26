@@ -48,6 +48,11 @@ const techStack = [
   { name: 'eMail', icon: 'fa fa-envelope' },
   { name: 'Links', icon: 'fa fa-link' }
 ];
+const openLink = (url) => {
+  if (url) {
+    window.open(url, '_blank'); // 在新标签页打开
+  }
+};
 const lastUpdates = ref([]);
 const loading = ref(true);
 const closeModal = () => emit('close');
