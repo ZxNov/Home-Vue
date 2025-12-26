@@ -42,7 +42,7 @@ import { ref } from 'vue';
 const emit = defineEmits(['close']);
 
 const techStack = [
-  { name: 'Panel', icon: 'fa fa-solar-panel' },
+  { name: 'Panel<a href="https://m.zxer.cn" target="_blank" class="github-link">', icon: 'fa fa-solar-panel' },
   { name: 'Memos', icon: 'fa fa-book' },
   { name: 'PassWD', icon: 'fa fa-key' },
   { name: 'eMail', icon: 'fa fa-envelope' },
