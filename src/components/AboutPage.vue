@@ -23,6 +23,10 @@
           <ul class="update-list">
             <li class="update-item">我是一名网络技术爱好者。
             </li>
+            <li class="update-item">欢迎访问我的个人主页。
+            </li>
+            <li class="update-item">这里可以写更多内容...
+            </li>
           </ul>
         </div>
       </div>
