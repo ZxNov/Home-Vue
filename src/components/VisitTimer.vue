@@ -9,7 +9,7 @@
          @click="toggleCalendar">
       <div class="timer-content">
         <i class="fas fa-clock"></i>
-        <span>停留时间 : </span>
+        <span>呆滞时长 : </span>
         <div class="time">
           <template v-for="(value, unit) in timeUnits" :key="unit">
             <div class="time-wrapper">
