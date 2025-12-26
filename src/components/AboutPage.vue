@@ -3,7 +3,7 @@
     <div class="about-modal">
       <div class="about-modal-content">
         <div class="tech-stack">
-            <h3>ZXU.CC</h3>
+            <h3>ZXME.NET</h3>
           <ul class="tech-list">
             <li v-for="tech in techStack" :key="tech.name" :class="['tech-item', tech.name.toLowerCase()]">
               <i :class="tech.icon"></i>
