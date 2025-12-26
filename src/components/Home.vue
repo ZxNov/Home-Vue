@@ -6,7 +6,7 @@
         <span class="status-ball"></span>
       </div>
       <div class="user-name" v-motion-slide-left>
-        <h1>欢迎来到<span n cla=s="name-styleZXME</span></h1>
+        <h1>欢迎来到 <span class="name-style">ZXME</span></h1>
       </div>
     </div>
     <div class="description">
