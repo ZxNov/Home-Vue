@@ -43,9 +43,9 @@ const emit = defineEmits(['close']);
 
 const techStack = [
   { name: 'Panel<a href="https://m.zxer.cn" target="_blank" class="github-link">', icon: 'fa fa-solar-panel' },
-  { name: 'Memos', icon: 'fa fa-book' },
-  { name: 'PassWD', icon: 'fa fa-key' },
-  { name: 'eMail', icon: 'fa fa-envelope' },
+  { name: 'Memos<a href="https://m.zxer.cn" target="_blank" class="github-link">', icon: 'fa fa-book' },
+  { name: 'PassWD'<a href="https://m.zxer.cn" target="_blank" class="github-link">, icon: 'fa fa-key' },
+  { name: 'eMail'<a href="https://m.zxer.cn" target="_blank" class="github-link">, icon: 'fa fa-envelope' },
   { name: 'Links', icon: 'fa fa-link' }
 ];
 const lastUpdates = ref([]);
