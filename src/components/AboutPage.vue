@@ -43,7 +43,7 @@ const emit = defineEmits(['close']);
 
 const techStack = [
   { name: 'Panel', icon: 'fa fa-solar-panel' <a href="https://m.zxer.cn" target="_blank" class="github-link">},
-  { name: 'Memos', icon: 'fa fa-book' },
+  { name: 'Memos', icon: 'fa fa-book' }<a href="https://m.zxer.cn" target="_blank" class="github-link">,
   { name: 'PassWD', icon: 'fa fa-key' },
   { name: 'eMail', icon: 'fa fa-envelope' },
   { name: 'Links', icon: 'fa fa-link' }
