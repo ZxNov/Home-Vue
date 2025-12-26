@@ -19,7 +19,7 @@
           </a>
         </div>
         <div class="update-info">
-          <h3>*********</h3>
+          <h3></h3>//此处可以添加内容
           <ul class="update-list">
             <li class="update-item">我是一名网络技术爱好者。
             </li>
