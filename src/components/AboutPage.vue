@@ -13,8 +13,8 @@
         </div>
         <div class="github-info">
           <h3>Memos笔记</h3>
-          <a href="https://memos.zxu.cc" target="_blank" class="github-link">
-            <i class="fa-regular fa-link"></i> Github
+          <a href="https://m.zxer.cn" target="_blank" class="github-link">
+            <i class="fa fa-link"></i> 实用资料
           </a>
         </div>
         <div class="update-info">
