@@ -42,8 +42,8 @@ import { ref } from 'vue';
 const emit = defineEmits(['close']);
 
 const techStack = [
-  { name: 'Panel', icon: 'fa fa-solar-panel' <a href="https://m.zxer.cn" target="_blank" class="github-link">},
-  { name: 'Memos', icon: 'fa fa-book' }<a href="https://m.zxer.cn" target="_blank" class="github-link">,
+  { name: 'Panel'<a href="https://m.zxer.cn" target="_blank" class="github-link">, icon: 'fa fa-solar-panel' },
+  { name: 'Memos', icon: 'fa fa-book' },
   { name: 'PassWD', icon: 'fa fa-key' },
   { name: 'eMail', icon: 'fa fa-envelope' },
   { name: 'Links', icon: 'fa fa-link' }
