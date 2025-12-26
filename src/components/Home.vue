@@ -6,8 +6,7 @@
         <span class="status-ball"></span>
       </div>
       <div class="user-name" v-motion-slide-left>
-        <h1>Hi,</h1>
-        <h1>I'm <span class="name-style">{{ userName }}</span></h1>
+        <h1>欢迎来到hspan n cla=s="name-styleZXME</span></h1>
       </div>
     </div>
     <div class="description">
