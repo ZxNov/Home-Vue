@@ -21,11 +21,7 @@
         <div class="update-info">
           <h3>一些信息</h3>
           <ul class="update-list">
-            <li v-if="loading" class="loading-item">
-              <div class="loading-spinner"></div>
-            </li>
-            <li v-for="(update, index) in lastUpdates" :key="index" class="update-item">
-              {{ update.message }} <span v-if="update.date"> ({{ update.date }})</span>
+            <li class="update-item">我是一名网络技术爱好者。
             </li>
           </ul>
         </div>
