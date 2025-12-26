@@ -5,7 +5,8 @@
         <div class="tech-stack">
             <h3>ZXME.NET</h3>
           <ul class="tech-list">
-            <li v-for="tech in techStack" :key="tech.name" :class="['tech-item', tech.name.toLowerCase()]">
+            <li v-for="tech in techStack" :key="tech.name" :class="['tech-item', tech.name.toLowerCase()]"@click="openLink(tech.link)"
+    :style="tech.link ? { cursor: 'pointer' } : {}">
               <i :class="tech.icon"></i>
               {{ tech.name }}
             </li>
